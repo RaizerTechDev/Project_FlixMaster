@@ -1,0 +1,38 @@
+Project-FlixMaster/
+│
+├── .vscode/                           // Pasta do VSCode
+│   └── settings.json                  #  Configurações do VSCode para definir a porta em que o servidor local será executado 
+│
+├── assets/                            // Pasta Recurso do projeto (assets)
+│   ├── images/                        // Pasta Imagens
+│   │         │
+│   │         ├── filmes/             // Pasta para Arquivos imagens de filmes
+│   │         │   └── filme1.jpg      # Imagem do filme 1
+│   │         │   └── filme2.jpg      # Imagem do filme 2
+│   │         │   └── ...             # Outras imagens de filmes
+│   │         │   └── filme6.jpg      # Imagem do filme 6
+│   │         │    
+│   │         ├── series/             // Pasta Arquivos para imagens de series
+│   │         │   └── serie1.png      # Imagem da série 1
+│   │         │   └── serie2.png      # Imagem da série 2
+│   │         │   └── ...             # Outras imagens de séries
+│   │         │   └── serie6.png      # Imagem da série 6
+│   │          
+│   │         
+│   │       
+│   ├── js/                           // Pasta  JavaScript
+│   │    └── filme.js                 # Arquivo JS para filmes
+│   │    └── serie.js                 # Arquivo JavaScript para séries
+│   │      
+│   ├── styles/                       // Pasta  CSS
+│   │   └─── header-footer.css        # Estilos para cabeçalho e rodapé
+│   │   └─── media-query.css          # Estilos para media queries
+│   │   └─── sections.css             # Estilos para seções
+│
+│
+├── index.html                        # Arquivo HTML principal
+│
+├── LICENSE                           # Licença do projeto
+│ 
+└── README.md                         # Documentação do projeto
+

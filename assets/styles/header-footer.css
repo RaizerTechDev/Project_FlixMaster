@@ -1,0 +1,80 @@
+/* Estilos básicos */
+body {
+  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
+  background-color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para a navegação */
+header {
+  position: fixed; /* Define o posicionamento fixo */
+  top: 0; /* Fixa o cabeçalho no topo */
+  width: 100%; /* Define a largura total */
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Ajusta a ordem de sobreposição */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(147, 249, 92);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Altera o display para flexbox */
+  justify-content: space-between; /* Distribui os itens uniformemente */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: rgb(147, 249, 92);
+  text-decoration: none;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer__title {
+  color: #c6c4c4;
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+footer p {
+  color: #c6c4c4;
+}
+
+/* Estilos para os ícones de redes sociais */
+.social-icons {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #ee90cd;
+  transition: color 0.3s ease;
+}

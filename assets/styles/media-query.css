@@ -1,0 +1,84 @@
+
+/* Estilos específicos para dispositivos menores */
+@media (max-width: 767px) {
+    /* Estilos para a navegação */
+    nav ul {
+      flex-direction: column; /* Altera a direção para coluna */
+      align-items: center; /* Centraliza os itens */
+    }
+  
+    nav ul li {
+      margin-bottom: 2px; /* Adiciona um espaçamento entre os itens */
+      font-size: 14px;
+    }
+  
+    /* Estilo para o cabeçalho (hero) */
+    .hero {
+      padding: 50px 0;
+      background-size: auto; /* Ajuste para tamanho da tela */
+    }   
+    .hero__subtitle {
+      font-size: 19px;
+    }
+  
+    /* Estilos para seção com carrossel de séries e filmes responsivo */
+    .carousel-section {
+      padding: 0 20px; /* Adiciona padding nas laterais para dispositivos menores */
+    }
+    .serie {
+      flex: 0 0 calc(50% - 20px); /* Define a largura de cada item do carrossel (ajuste conforme necessário) */
+      margin: 0 auto; /* Centraliza os itens horizontalmente */
+      text-align: center; /* Alinha o texto ao centro */
+      /* Outros estilos para cada item do carrossel */
+    }
+  
+    .filme {
+      flex: 0 0 calc(50% - 20px); /* Define a largura de cada item do carrossel (ajuste conforme necessário) */
+      margin: 0 auto; /* Centraliza os itens horizontalmente */
+      text-align: center; /* Alinha o texto ao centro */
+      /* Outros estilos para cada item do carrossel */
+    }
+    .serie img {
+      width: 85px; /* Largura fixa para as imagens */
+      height: 100px; /* Altura fixa para as imagens */
+      border-radius: 15px;
+      margin-left: 10px;
+    }
+    .filme img {
+      width: 85px; /* Largura fixa para as imagens */
+      height: 100px; /* Altura fixa para as imagens */
+      border-radius: 15px;
+      margin-left: 10px;
+    }
+    .serie h3 {
+      margin-top: 10px;
+      text-align: center;
+      color: #f5cf9f;
+      font-size: 15px;
+    }
+    .filme h3 {
+      margin-top: 10px;
+      text-align: center;
+      color: #f5cf9f;
+      font-size: 14px;
+    }
+  
+    .prev-btn--series,
+    .next-btn--series {
+      font-size: 10px;
+    }
+  
+    .prev-btn--filmes,
+    .next-btn--filmes {
+      font-size: 10px;
+    }
+  
+    /* Estilos para o rodapé */
+    .footer__title {
+      font-size: 20px;
+    }
+    .footer__social-icons {
+      margin-bottom: 20px;
+    }
+  }
+  

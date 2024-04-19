@@ -1,0 +1,173 @@
+/* Estilos básicos */
+
+/* Estilo para seção (hero) */
+.hero {
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3I0OHZzanFxbzV1ZnBranRiaXBkY3B6ZGpoazJseG4xNzU1ZjBtaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZDDkd7LtZT7gQpHqGT/giphy.gif");
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  position: relative; /* Adicionado position relative */
+}
+
+.hero__subtitle {
+  padding: 10px 0;
+  color: #fff;
+  margin-top: 100px;
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  font-size: 25px;
+}
+.hero__subtitle span {
+  color: rgb(147, 249, 92);
+  text-decoration: underline;
+}
+
+/* Estilo para as seções (Serie e Filme) */
+main {
+  padding: 20px;
+  background-color: #141414;
+}
+.carousel-section {
+  position: relative;
+  justify-content: center; /* Centraliza o carrossel horizontalmente */
+  overflow: hidden;
+  width: 100%;
+}
+.carousel-section h2 {
+  margin-top: 100px;
+  text-align: center;
+  color: #80e93f;
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 20px; /* Espaçamento entre os itens do carrossel */
+  scroll-snap-type: x mandatory; /* Faz com que os filmes rolem suavemente */
+}
+
+.serie {
+  position: relative; /* Define a posição relativa para que o z-index funcione */
+  flex: 0 0 auto;
+  width: 200px; /* Largura do item do carrossel */
+  margin: 0 auto; /* Centraliza os itens horizontalmente */
+  /* Outros estilos para cada item do carrossel */
+  margin-top: 20px;
+  text-align: center;
+}
+.filme {
+  flex: 0 0 auto;
+  width: 200px; /* Largura do item do carrossel */
+  margin: 0 auto; /* Centraliza os itens horizontalmente */
+  /* Outros estilos para cada item do carrossel */
+  margin-top: 20px;
+  text-align: center;
+}
+
+.serie img {
+  width: 200px; /* Largura fixa para as imagens */
+  height: 200px; /* Altura fixa para as imagens */
+  border-radius: 15px;
+  margin-left: 50px;
+}
+
+.filme img {
+  width: 200px; /* Largura fixa para as imagens */
+  height: 200px; /* Altura fixa para as imagens */
+  border-radius: 15px;
+  margin-left: 50px;
+}
+
+.serie h3 {
+  margin-top: 10px;
+  text-align: right;
+  color: #f5cf9f;
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+.filme h3 {
+  margin-top: 10px;
+  text-align: right;
+  color: #f5cf9f;
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+.methodology__project--link {
+  position: relative;
+  display: inline-block; /* Adiciona isso para que a largura e a altura se ajustem ao conteúdo */
+}
+.methodology__project--link .project-link--large {
+  position: absolute; /* Define a posição absoluta */
+  top: 50%; /* Define a posição verticalmente no meio */
+  left: 50%; /* Define a posição horizontalmente no meio */
+  transform: translate(-50%, -50%); /* Move para o centro */
+  padding: 5px 10px; /* Adiciona um pouco de espaço interno ao redor do texto */
+  border-radius: 5px;
+}
+
+.project-link--large {
+  position: relative; /* Permite que o texto flua em torno da imagem */
+  z-index: 2; /* Garante que o texto fique sobre a imagem */
+  font-size: 0.2rem; /* Define o tamanho da fonte */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  color: #343a40;
+}
+
+.prev-btn--series,
+.next-btn--series {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(241, 41, 41, 0.8);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+.prev-btn--filmes,
+.next-btn--filmes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(241, 41, 41, 0.8);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.prev-btn--series:hover,
+.next-btn--series:hover {
+  background-color: rgba(58, 241, 41, 0.8);
+}
+.prev-btn--filmes:hover,
+.next-btn--filmes:hover {
+  background-color: rgba(58, 241, 41, 0.8);
+}
+
+.prev-btn--series {
+  left: 10px;
+}
+.prev-btn--filmes {
+  left: 10px;
+}
+
+.next-btn--series {
+  right: 10px;
+}
+
+.next-btn--filmes {
+  right: 10px;
+}
+
+.separator {
+  border: none;
+  border-top: 3px solid #ddd; /* Cor e espessura da linha */
+  margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+}
