@@ -5,7 +5,7 @@
  <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45">
 
-[ ( Clique aqui e desfrute de grandes filmes e séries agora mesmo: `FlixMaster!!!`) ](#link-projeto)
+[ ( Clique aqui e desfrute de grandes filmes e séries agora mesmo: `FlixMaster!!!`) ](https://rafarz76dev-project-flixmaster.netlify.app/)
 
 <br>
 
