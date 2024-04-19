@@ -68,6 +68,7 @@ Project-FlixMaster/
 📌 Aqui está uma pequena documentação do Projeto: Conceitos Aplicados👇
 
 ▪ No HTML criamos (nav, sections e footer):
+
 🚀Copy code
 
 ```
@@ -114,6 +115,7 @@ Project-FlixMaster/
 ```
 
 ▪ No CSS criamos (header-footer, sections e media-query):
+
 🚀Copy code
 
 ```
@@ -198,6 +200,7 @@ footer {
 ```
 
 ▪ O JavaScript foi empregado para construir a lógica fundamental do carrossel, assegurando seu funcionamento adequado em conjunto com os arquivos filme.js e serie.js.:
+
 🚀Copy code
 
 ```
