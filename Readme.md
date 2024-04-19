@@ -187,15 +187,13 @@ footer {
     .serie {
       flex: 0 0 calc(50% - 20px); /* Define a largura de cada item do carrossel (ajuste conforme necessário) */
       margin: 0 auto; /* Centraliza os itens horizontalmente */
-      text-align: center; /* Alinha o texto ao centro */
-      /* Outros estilos para cada item do carrossel */
+      text-align: center; /* Alinha o texto ao centro */      
     }
 
     .filme {
       flex: 0 0 calc(50% - 20px); /* Define a largura de cada item do carrossel (ajuste conforme necessário) */
       margin: 0 auto; /* Centraliza os itens horizontalmente */
-      text-align: center; /* Alinha o texto ao centro */
-      /* Outros estilos para cada item do carrossel */
+      text-align: center; /* Alinha o texto ao centro */      
     }
 ```
 
