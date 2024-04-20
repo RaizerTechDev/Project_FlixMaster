@@ -65,7 +65,7 @@ Project-FlixMaster/
 └── README.md                         # Documentação do projeto
 ```
 
-📌 Aqui está uma pequena documentação do Projeto: Conceitos Aplicados👇
+### 📌 Aqui está uma pequena documentação do Projeto: Conceitos Aplicados👇
 
 ▪ No HTML criamos (nav, sections e footer):
 
@@ -242,6 +242,8 @@ footer {
         carouselContainerSeries.style.transform = `translateX(${carouselPositionSeries}px)`;
     }
 ```
+
+### 📌 Garantindo responsividade total para uniformidade visual em todas as telas.
 
 ---
 
