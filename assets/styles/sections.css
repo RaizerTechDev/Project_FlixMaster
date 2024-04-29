@@ -82,6 +82,17 @@ main {
   margin-left: 50px;
 }
 
+.serie img:hover {
+  transform: scale(
+    1.2
+  ); /* Aumenta a escala da imagem em 20% ao passar o mouse */
+}
+.filme img:hover {
+  transform: scale(
+    1.2
+  ); /* Aumenta a escala da imagem em 20% ao passar o mouse */
+}
+
 .serie h3 {
   margin-top: 10px;
   text-align: right;
@@ -145,10 +156,16 @@ main {
 .prev-btn--series:hover,
 .next-btn--series:hover {
   background-color: rgba(58, 241, 41, 0.8);
+  transform: scale(
+    1.2
+  ); /* Aumenta a escala da imagem em 20% ao passar o mouse */
 }
 .prev-btn--filmes:hover,
 .next-btn--filmes:hover {
   background-color: rgba(58, 241, 41, 0.8);
+  transform: scale(
+    1.2
+  ); /* Aumenta a escala da imagem em 20% ao passar o mouse */
 }
 
 .prev-btn--series {

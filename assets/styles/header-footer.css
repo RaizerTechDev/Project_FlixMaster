@@ -25,7 +25,12 @@ header {
   font-weight: bold;
   color: rgb(147, 249, 92);
 }
-
+.logo:hover {
+  color: rgba(239, 243, 238, 0.8);
+  transform: scale(
+    1.2
+  ); /* Aumenta a escala da imagem em 20% ao passar o mouse */
+}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -42,6 +47,13 @@ nav ul li {
 nav ul li a {
   color: rgb(147, 249, 92);
   text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgba(239, 243, 238, 0.8);
+  transform: scale(
+    1.5
+  ); /* Aumenta a escala da imagem em 50% ao passar o mouse */
 }
 
 /* Estilos para o rodapé */
@@ -77,4 +89,10 @@ footer p {
   font-size: 24px;
   color: #ee90cd;
   transition: color 0.3s ease;
+}
+.social-icon:hover {
+  color: rgba(239, 243, 238, 0.8);
+  transform: scale(
+    1.5
+  ); /* Aumenta a escala da imagem em 20% ao passar o mouse */
 }
