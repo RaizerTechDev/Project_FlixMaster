@@ -75,6 +75,19 @@ footer {
 
 footer p {
   color: #c6c4c4;
+  font-size: 0.9rem;
+}
+
+.copyright{
+  color: rgb(147, 249, 92);
+}
+
+span:hover {
+  color: #ee90cd;
+  font-size: 1.2rem;
+  transform: scale(
+    1.2
+  ); 
 }
 
 /* Estilos para os ícones de redes sociais */
